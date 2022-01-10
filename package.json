@@ -23,8 +23,9 @@
     "zlib": "^1.2.8",
     "yarn": "^1.14.0"
   },
-  "scripts": {
-    "start": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts start",
+  "scripts": {  
+    "dev": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts start",
+    "start": "serve -s build",    
     "build": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
