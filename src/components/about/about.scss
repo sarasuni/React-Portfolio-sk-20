@@ -1,0 +1,28 @@
+@import "../../global.scss";
+
+.about{
+    background-color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: $mainColor;
+   text-align: center;
+   margin-top: 10px;
+}
+
+p{
+    color: $mainColor;
+   text-align: center;
+   margin-top: 30px;
+   margin-right: 150px;
+   margin-left: 150px;
+   font-size: 25px;
+
+
+   @include mobile{
+    margin: 10px 5px;
+    justify-content: center;
+    text-align: center;
+}
+}
