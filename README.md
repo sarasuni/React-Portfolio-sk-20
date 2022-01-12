@@ -65,7 +65,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 Live deployed link: 
-
+https://react-portfolio-sk.herokuapp.com/
 
 ## Username:
 
