@@ -18,14 +18,10 @@
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
-  "engines": {
-    "node": "^14.18.0",
-    "zlib": "^1.2.8",
-    "yarn": "^1.14.0"
-  },
+  
   "scripts": {  
-    "start": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts start",    
-    "build": "node --optimize_for_size --max_old_space_size=460 node_modules/.bin/react-scripts build",
+    "start": "react-scripts start",    
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
